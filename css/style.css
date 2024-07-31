@@ -11,9 +11,11 @@ body{
 }
 .section-h1{
     font-size: 65px;
+
 }
 .section-h2{
     font-size: 45px;
+    text-transform: capitalize;
 }
 h1,
 h2,
