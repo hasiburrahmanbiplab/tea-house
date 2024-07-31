@@ -24,6 +24,9 @@ h6 {
     padding: 0;
     margin: 0;
 }
+p{
+    margin-bottom: 0;
+}
 ul{
     padding: 0;
     margin: 0;
@@ -38,7 +41,7 @@ a{
 }
 .img-fluid{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 .container{
     border: 1px solid red;
@@ -61,5 +64,9 @@ a{
 .banner-image .overly {
 	left: 18%;
 	bottom: 0%;
+}
+.banner-text{
+    width: 450px;
+    max-width: 100%;
 }
 /* banner part end */
