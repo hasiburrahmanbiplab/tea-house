@@ -13,9 +13,13 @@
         font-size: 45px;
     }
 }
-@media (min-width:991px) and (max-width:1199.99px) {
-    
+@media (min-width:992px) and (max-width:1199.99px) {
+    .section-h1 {
+        font-size: 60px;
+    }
 }
 @media (min-width:1200px) {
-    
+    .section-h1 {
+        font-size: 70px;
+    }
 }
