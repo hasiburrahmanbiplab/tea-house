@@ -59,6 +59,9 @@ a{
     background: linear-gradient(to right ,#FF8938, #FF0000);
     text-transform: capitalize;
 }
+.freshly-linear{
+   background: linear-gradient(to right, #D9D9D9 , #FFFFFF);
+}
 /* common css end */
 /* banner part start */
 .banner-image .overly {
@@ -75,4 +78,16 @@ a{
     width: 800px;
     max-width: 100%;
 }
+.featured-card .inner-card img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
 /* featured part end */
+/* freshly part start */
+.freshly-image .image-1 .card img{
+    width: 85%;
+    height: 75%;
+    object-fit: contain;
+}
+/* freshly part end */
