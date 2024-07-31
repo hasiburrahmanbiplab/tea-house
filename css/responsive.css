@@ -5,10 +5,16 @@
     .section-h2 {
         font-size: 35px;
     }
+    .gap {
+        margin: 40px 0;
+    }
     /* featured part start */
     /* featured part end */
 }
 @media (min-width:576px) and (max-width:767.99px) {
+    .gap {
+        margin: 45px 0;
+    }
     .section-h1 {
         font-size: 45px;
     }
@@ -17,6 +23,9 @@
     }
 }
 @media (min-width:768px) and (max-width:991.99px) {
+    .gap {
+        margin: 50px 0;
+    }
     .section-h1 {
         font-size: 45px;
     }
