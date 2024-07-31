@@ -14,7 +14,7 @@ body{
 
 }
 .section-h2{
-    font-size: 45px;
+    font-size: 40px;
     text-transform: capitalize;
 }
 h1,
@@ -96,3 +96,13 @@ a{
     object-fit: contain;
 }
 /* freshly part end */
+/* client part start */
+.client-cup .img{
+   max-width: 255px;
+   
+}
+.client-cup .img img{
+    width: 100%;
+   
+}
+/* client part end */
