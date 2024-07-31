@@ -36,6 +36,10 @@ a{
     display: inline-block;
     text-decoration:none
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 .container{
     border: 1px solid red;
 }
@@ -43,10 +47,19 @@ a{
     background: linear-gradient(to right ,#FF8938, #FF0000);
 }
 .common-btn{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
     padding: 18px 20px;
+    border: none;
+    border-radius: 10px;
     background: linear-gradient(to right ,#FF8938, #FF0000);
+    text-transform: capitalize;
 }
 /* common css end */
+/* banner part start */
+.banner-image .overly {
+	left: 18%;
+	bottom: 0%;
+}
+/* banner part end */
