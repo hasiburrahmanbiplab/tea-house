@@ -98,11 +98,16 @@ a{
 /* freshly part end */
 /* client part start */
 .client-cup .img{
-   max-width: 255px;
-   
+   max-width: 255px; 
 }
 .client-cup .img img{
     width: 100%;
-   
+}
+.client-card .card .img-1 {
+	width: 70px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	top: -12%;
+	left: -6%;
 }
 /* client part end */
