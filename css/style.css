@@ -52,10 +52,11 @@ a{
     border: 1px solid red;
 }
 .btn-color{
-    background: linear-gradient(to right ,#FF8938, #FF0000);
+  background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
 }
 .btn-color-1{
-    background-color: rgba(0, 0, 0, 0.37);
+    /* Linear */
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%); 
 }
 .overly-btn{
     background: linear-gradient(to right, #FF8938 , #FF0000);
@@ -105,13 +106,29 @@ a{
 }
 /* freshly part end */
 /* client part start */
+.client-container{
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%); 
+}
 .client-cup .img{
-   max-width: 255px; 
+   max-width: 305px; 
 }
 .client-cup .img img{
     width: 100%;
+    height: auto;
 }
-.client-card .card .img-1 {
+.card-box-1 .card .img-1 {
+	width: 70px;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	top: -11%;
+	left: -5%;
+}
+.client-container .overly{
+    background-color: rgba(214, 14, 14, 0.176);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+.overly-card .card .img-1 {
 	width: 70px;
 	height: 70px;
 	background-color: rgb(255, 255, 255);
