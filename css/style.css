@@ -127,7 +127,7 @@ a{
 	left: -5%;
 }
 .client-container .client-card .overly-card{
-    background-color: rgba(248, 6, 6, 0.037);
+    background-color: rgba(248, 6, 6, 0.138);
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
 }
