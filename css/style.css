@@ -54,6 +54,14 @@ a{
 .btn-color{
     background: linear-gradient(to right ,#FF8938, #FF0000);
 }
+.btn-color-1{
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.overly-btn{
+    background: linear-gradient(to right, #FF8938 , #FF0000);
+    background-clip: text;
+    color: transparent;
+}
 .common-btn{
     font-size: 16px;
     font-weight: 700;
