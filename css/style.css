@@ -152,6 +152,9 @@ a{
 }
 /* event part end */
 /* footer part start */
+#footer{
+    margin-top:70px ;
+}
 .social-link ul li a{
     width: 40px;
     height: 40px;

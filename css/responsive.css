@@ -9,6 +9,9 @@
         margin: 40px 0;
     }
     /* featured part start */
+    .featured-card .inner-card img{
+        width: 50%;
+    }
     /* featured part end */
     .card-box-1 .card .img-1 {
         top: -11%;
@@ -25,6 +28,11 @@
     .section-h2 {
         font-size: 35px;
     }
+    /* featured part start */
+    .featured-card .inner-card img{
+        width: 50%;
+    }
+    /* featured part end */
     .card-box-1 .card .img-1 {
         top: -11%;
         left: -2%;
