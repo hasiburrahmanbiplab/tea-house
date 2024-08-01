@@ -127,9 +127,9 @@ a{
 	left: -5%;
 }
 .client-container .client-card .overly-card{
-    background-color: rgba(248, 6, 6, 0.138);
+    background-color:rgba(0, 0, 0, 0.057);
   -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
 }
 .overly-card .inner-card{
     width: 80%;
@@ -149,3 +149,8 @@ a{
 	height:100% ;
 }
 /* client part end */
+/* event part start */
+.event-heading{
+    max-width:800px
+}
+/* event part end */
