@@ -154,3 +154,10 @@ a{
     max-width:800px
 }
 /* event part end */
+/* footer part start */
+.social-link ul li a{
+    width: 40px;
+    height: 40px;
+}
+
+/* footer part end */
